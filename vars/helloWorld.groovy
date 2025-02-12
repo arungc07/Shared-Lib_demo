@@ -1,5 +1,3 @@
-#!/usr/bin/env groovy
-
-def call(){
-	sh echo "Hello This jobe done by Arunprasath."
+def call(string name, string loc){
+	sh echo "Hello This jobe done by ${name} from ${loc}."
 }
